@@ -68,4 +68,26 @@ export const projects = [
     codeUrl: "https://github.com/ranabadawy111/Hammam-Booking-Flow",
     accent: "gold",
   },
+  {
+    id: "bloom-bowls",
+    name: "Bloom Bowls",
+    tagline: "Ritual booking experience",
+    description:
+      "A marketing site and multi-step booking flow for a boutique bathhouse — live availability, session-based slot reservation, and a distinct visual identity built around a custom arch motif.",
+    tags: ["React", "Redux Toolkit", "RTK Query", "Framer Motion", "React Router"],
+    liveUrl: "https://bloom-bowls.vercel.app/",
+    codeUrl: "https://github.com/ranabadawy111/Bloom-Bowls",
+    accent: "gold",
+  },
+    {
+    id: "marsa-estates",
+    name: "Marsa Estates",
+    tagline: "Ritual booking experience",
+    description:
+      "A marketing site and multi-step booking flow for a boutique bathhouse — live availability, session-based slot reservation, and a distinct visual identity built around a custom arch motif.",
+    tags: ["React", "Redux Toolkit", "RTK Query", "Framer Motion", "React Router"],
+    liveUrl: "https://marsa-estates.vercel.app/",
+    codeUrl: "https://github.com/ranabadawy111/Marsa-Estates",
+    accent: "gold",
+  },
 ];

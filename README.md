@@ -2,7 +2,9 @@
 
 A personal frontend developer portfolio built around a code-editor identity: terminal-window project cards, a typed code-block hero, and a warm graphite / periwinkle palette instead of the usual dark-mode defaults.
 
-**[Live demo →](#)** _(add your Vercel/Netlify link here after deploying)_
+## 🚀 Live Demo
+
+[Live demo →](https://my-portfolio-seven-theta-78.vercel.app)
 
 ## Before you deploy — replace the placeholder data
 

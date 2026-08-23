@@ -5,7 +5,7 @@ import TerminalWindow from "../ui/TerminalWindow";
 import Tag from "../ui/Tag";
 import { projects } from "../../data/profile";
 
-const INITIAL_PROJECTS = 3;
+const INITIAL_PROJECTS = 4;
 
 const accentMap = {
   periwinkle: "text-periwinkle-400",

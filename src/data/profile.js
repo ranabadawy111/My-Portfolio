@@ -90,6 +90,36 @@ export const languages = [
 // needs to change when you add one.
 export const projects = [
   {
+    id: "resolve-ai",
+    name: "ResolveAI",
+    tagline: "AI-assisted customer support workspace",
+    description:
+      "A production-style customer support dashboard designed around AI-assisted ticket resolution. The workspace includes ticket triage, customer management, priority and status workflows, AI reply suggestions, notifications, authentication, persistent settings, and reusable UI patterns. Built with React, TypeScript, Redux Toolkit, RTK Query, Tailwind CSS, and Framer Motion, with client-side persistence to keep the full experience interactive without a backend.",
+    tags: [
+      "React",
+      "TypeScript",
+      "Redux Toolkit",
+      "RTK Query",
+      "AI UX",
+      "Tailwind CSS",
+      "Framer Motion",
+    ],
+    liveUrl: "https://resolve-ai-two-rosy.vercel.app/",
+    codeUrl: "https://github.com/ranabadawy111/ResolveAI",
+    accent: "periwinkle",
+  },
+  {
+    id: "marsa-estates",
+    name: "Marsa Estates",
+    tagline: "Property search with live map & mortgage calculator",
+    description:
+      "A real estate listings site with multi-field search and filtering, an interactive Leaflet map with custom branded markers, a live mortgage calculator with real amortization math, and session-based favorites — combining RTK Query for server-shaped data with a plain Redux Toolkit slice for client state.",
+    tags: ["React", "Redux Toolkit", "RTK Query", "Leaflet", "Framer Motion"],
+    liveUrl: "https://marsa-estates.vercel.app/",
+    codeUrl: "https://github.com/ranabadawy111/Marsa-Estates",
+    accent: "gold",
+  },
+  {
     id: "kettle-and-co",
     name: "Kettle & Co",
     tagline: "Subscription admin dashboard",
@@ -99,6 +129,17 @@ export const projects = [
     liveUrl: "https://kettle-admin-dashboard.vercel.app/",
     codeUrl: "https://github.com/ranabadawy111/kettle-admin-dashboard",
     accent: "periwinkle",
+  },
+  {
+    id: "loopline",
+    name: "Loopline",
+    tagline: "Kanban task board with TypeScript & drag-and-drop",
+    description:
+      "A team task management tool built in TypeScript — real pointer-based drag-and-drop between columns, a mock authentication flow with protected routes, and a Redux Toolkit + RTK Query architecture split by responsibility. Includes unit tests with Vitest.",
+    tags: ["React", "TypeScript", "Redux Toolkit", "RTK Query", "Vitest"],
+    liveUrl: "https://loopline-omega.vercel.app/",
+    codeUrl: "https://github.com/ranabadawy111/Loopline",
+    accent: "gold",
   },
   {
     id: "hammam-zahra",
@@ -127,27 +168,5 @@ export const projects = [
     liveUrl: "https://bloom-bowls.vercel.app/",
     codeUrl: "https://github.com/ranabadawy111/Bloom-Bowls",
     accent: "periwinkle",
-  },
-  {
-    id: "marsa-estates",
-    name: "Marsa Estates",
-    tagline: "Property search with live map & mortgage calculator",
-    description:
-      "A real estate listings site with multi-field search and filtering, an interactive Leaflet map with custom branded markers, a live mortgage calculator with real amortization math, and session-based favorites — combining RTK Query for server-shaped data with a plain Redux Toolkit slice for client state.",
-    tags: ["React", "Redux Toolkit", "RTK Query", "Leaflet", "Framer Motion"],
-    liveUrl: "https://marsa-estates.vercel.app/",
-    codeUrl: "https://github.com/ranabadawy111/Marsa-Estates",
-    accent: "gold",
-  },
-  {
-    id: "loopline",
-    name: "Loopline",
-    tagline: "Kanban task board with TypeScript & drag-and-drop",
-    description:
-      "A team task management tool built in TypeScript — real pointer-based drag-and-drop between columns, a mock authentication flow with protected routes, and a Redux Toolkit + RTK Query architecture split by responsibility. Includes unit tests with Vitest.",
-    tags: ["React", "TypeScript", "Redux Toolkit", "RTK Query", "Vitest"],
-    liveUrl: "https://loopline-omega.vercel.app/",
-    codeUrl: "https://github.com/ranabadawy111/Loopline",
-    accent: "gold",
   },
 ];

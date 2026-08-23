@@ -90,6 +90,17 @@ export const languages = [
 // needs to change when you add one.
 export const projects = [
   {
+    id: "marsa-estates",
+    name: "Marsa Estates",
+    tagline: "Property search with live map & mortgage calculator",
+    description:
+      "A real estate listings site with multi-field search and filtering, an interactive Leaflet map with custom branded markers, a live mortgage calculator with real amortization math, and session-based favorites — combining RTK Query for server-shaped data with a plain Redux Toolkit slice for client state.",
+    tags: ["React", "Redux Toolkit", "RTK Query", "Leaflet", "Framer Motion"],
+    liveUrl: "https://marsa-estates.vercel.app/",
+    codeUrl: "https://github.com/ranabadawy111/Marsa-Estates",
+    accent: "gold",
+  },
+  {
     id: "resolve-ai",
     name: "ResolveAI",
     tagline: "AI-assisted customer support workspace",
@@ -107,17 +118,6 @@ export const projects = [
     liveUrl: "https://resolve-ai-two-rosy.vercel.app/",
     codeUrl: "https://github.com/ranabadawy111/ResolveAI",
     accent: "periwinkle",
-  },
-  {
-    id: "marsa-estates",
-    name: "Marsa Estates",
-    tagline: "Property search with live map & mortgage calculator",
-    description:
-      "A real estate listings site with multi-field search and filtering, an interactive Leaflet map with custom branded markers, a live mortgage calculator with real amortization math, and session-based favorites — combining RTK Query for server-shaped data with a plain Redux Toolkit slice for client state.",
-    tags: ["React", "Redux Toolkit", "RTK Query", "Leaflet", "Framer Motion"],
-    liveUrl: "https://marsa-estates.vercel.app/",
-    codeUrl: "https://github.com/ranabadawy111/Marsa-Estates",
-    accent: "gold",
   },
   {
     id: "kettle-and-co",

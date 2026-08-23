@@ -23,23 +23,66 @@ export const profile = {
 };
 
 export const skills = [
-  { group: "Core", items: ["React", "JavaScript (ES6+)", "Redux Toolkit", "RTK Query"] },
-  { group: "Styling", items: ["Tailwind CSS", "Responsive Design", "Framer Motion"] },
-  { group: "Tooling", items: ["Vite", "Git & GitHub", "REST APIs", "Chrome DevTools"] },
-  { group: "Currently learning", items: ["TypeScript", "Testing (Vitest)"] },
+  {
+    group: "Core",
+    items: [
+      "React",
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "Redux Toolkit",
+      "RTK Query",
+    ],
+  },
+  {
+    group: "Styling & UI",
+    items: ["Tailwind CSS", "Bootstrap", "Responsive Design", "Framer Motion"],
+  },
+  {
+    group: "Testing & Tooling",
+    items: ["Vite", "Vitest", "Git & GitHub", "Bitbucket", "Jira", "REST APIs"],
+  },
 ];
 
 export const experience = [
   {
     role: "Frontend Developer",
-    company: "Blue Bell",
-    period: "2024 — Present",
+    company: "BlueBell",
+    period: "Aug 2024 — Present",
     points: [
-      "Built and maintained React features used by thousands of users daily",
-      "Worked closely with design to turn Figma files into pixel-accurate, responsive UI",
-      "Improved page load performance and reduced re-renders across key flows",
+      "Built and maintained responsive web apps with React, TypeScript, and Redux Toolkit for enterprise clients including Mechanica, EgyptAir, and the Public Prosecution",
+      "Integrated RESTful APIs and streamlined data flow between frontend and backend teams",
+      "Built reusable UI components with Bootstrap and Tailwind CSS, keeping a consistent design system across projects",
+      "Improved performance through lazy loading, code splitting, and optimized state management",
+      "Worked in Agile sprints alongside UI/UX designers on pixel-accurate, accessible implementations",
     ],
   },
+];
+
+export const education = [
+  {
+    degree: "BSc in Computer Engineering",
+    institution: "Faculty of Engineering, Al-Azhar University",
+    period: "Sept 2018 — Jun 2023",
+    note: "Grade: Very Good (Honors)",
+  },
+];
+
+export const training = [
+  {
+    name: "Frontend & Cross-Platform Mobile Development Diploma",
+    institution: "ITI (Information Technology Institute)",
+    period: "Nov 2023 — Feb 2024",
+  },
+  {
+    name: "Front-End Diploma",
+    institution: "Route Academy",
+    period: "Feb 2022 — Aug 2022",
+  },
+];
+
+export const languages = [
+  { name: "Arabic", level: "Native" },
+  { name: "English", level: "Fluent" },
 ];
 
 // Add new projects here as you build them — each card on the
@@ -63,7 +106,13 @@ export const projects = [
     tagline: "Ritual booking experience",
     description:
       "A marketing site and multi-step booking flow for a boutique bathhouse — live availability, session-based slot reservation, and a distinct visual identity built around a custom arch motif.",
-    tags: ["React", "Redux Toolkit", "RTK Query", "Framer Motion", "React Router"],
+    tags: [
+      "React",
+      "Redux Toolkit",
+      "RTK Query",
+      "Framer Motion",
+      "React Router",
+    ],
     liveUrl: "https://hammam-booking-flow.vercel.app/",
     codeUrl: "https://github.com/ranabadawy111/Hammam-Booking-Flow",
     accent: "gold",
@@ -71,21 +120,21 @@ export const projects = [
   {
     id: "bloom-bowls",
     name: "Bloom Bowls",
-    tagline: "Ritual booking experience",
+    tagline: "Build-your-own bowl configurator",
     description:
-      "A marketing site and multi-step booking flow for a boutique bathhouse — live availability, session-based slot reservation, and a distinct visual identity built around a custom arch motif.",
-    tags: ["React", "Redux Toolkit", "RTK Query", "Framer Motion", "React Router"],
+      "An interactive product configurator for a build-your-own açaí bowl bar — live price calculation, a custom SVG bowl illustration that updates with every topping in real time, and an animated order summary wired to RTK Query.",
+    tags: ["React", "Redux Toolkit", "RTK Query", "Framer Motion", "SVG"],
     liveUrl: "https://bloom-bowls.vercel.app/",
     codeUrl: "https://github.com/ranabadawy111/Bloom-Bowls",
-    accent: "gold",
+    accent: "periwinkle",
   },
-    {
+  {
     id: "marsa-estates",
     name: "Marsa Estates",
-    tagline: "Ritual booking experience",
+    tagline: "Property search with live map & mortgage calculator",
     description:
-      "A marketing site and multi-step booking flow for a boutique bathhouse — live availability, session-based slot reservation, and a distinct visual identity built around a custom arch motif.",
-    tags: ["React", "Redux Toolkit", "RTK Query", "Framer Motion", "React Router"],
+      "A real estate listings site with multi-field search and filtering, an interactive Leaflet map with custom branded markers, a live mortgage calculator with real amortization math, and session-based favorites — combining RTK Query for server-shaped data with a plain Redux Toolkit slice for client state.",
+    tags: ["React", "Redux Toolkit", "RTK Query", "Leaflet", "Framer Motion"],
     liveUrl: "https://marsa-estates.vercel.app/",
     codeUrl: "https://github.com/ranabadawy111/Marsa-Estates",
     accent: "gold",

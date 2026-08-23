@@ -146,8 +146,8 @@ export const projects = [
     description:
       "A team task management tool built in TypeScript — real pointer-based drag-and-drop between columns, a mock authentication flow with protected routes, and a Redux Toolkit + RTK Query architecture split by responsibility. Includes unit tests with Vitest.",
     tags: ["React", "TypeScript", "Redux Toolkit", "RTK Query", "Vitest"],
-    liveUrl: "",
-    codeUrl: "",
+    liveUrl: "https://loopline-omega.vercel.app/",
+    codeUrl: "https://github.com/ranabadawy111/Loopline",
     accent: "gold",
   },
 ];

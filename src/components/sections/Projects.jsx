@@ -74,7 +74,7 @@ export default function Projects() {
         ))}
 
         {/* Placeholder card hinting more projects are coming */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -88,7 +88,7 @@ export default function Projects() {
             <br />
             <span className="text-bone-400">just add to `projects.js`</span>
           </p>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );

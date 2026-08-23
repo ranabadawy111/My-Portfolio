@@ -139,4 +139,15 @@ export const projects = [
     codeUrl: "https://github.com/ranabadawy111/Marsa-Estates",
     accent: "gold",
   },
+  {
+    id: "loopline",
+    name: "Loopline",
+    tagline: "Kanban task board with TypeScript & drag-and-drop",
+    description:
+      "A team task management tool built in TypeScript — real pointer-based drag-and-drop between columns, a mock authentication flow with protected routes, and a Redux Toolkit + RTK Query architecture split by responsibility. Includes unit tests with Vitest.",
+    tags: ["React", "TypeScript", "Redux Toolkit", "RTK Query", "Vitest"],
+    liveUrl: "",
+    codeUrl: "",
+    accent: "gold",
+  },
 ];

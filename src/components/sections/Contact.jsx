@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Code2, Briefcase, ArrowUpRight } from "lucide-react";
+import { Mail, Code2, Briefcase, Globe, FileText, ArrowUpRight } from "lucide-react";
 import Button from "../ui/Button";
 import { SectionHeading } from "./Projects";
 import { profile } from "../../data/profile";
@@ -7,6 +7,7 @@ import { profile } from "../../data/profile";
 const socialLinks = [
   { key: "github", label: "GitHub", icon: Code2, href: profile.socials.github },
   { key: "linkedin", label: "LinkedIn", icon: Briefcase, href: profile.socials.linkedin },
+  { key: "upwork", label: "Upwork", icon: Globe, href: profile.socials.upwork },
 ].filter((s) => s.href);
 
 export default function Contact() {
@@ -28,6 +29,20 @@ export default function Contact() {
           <Button as="a" href={`mailto:${profile.email}`} variant="accent" size="lg" icon={Mail}>
             {profile.email}
           </Button>
+
+          {profile.resumeUrl && (
+            <Button
+              as="a"
+              href={profile.resumeUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              variant="secondary"
+              size="lg"
+              icon={FileText}
+            >
+              View CV
+            </Button>
+          )}
         </div>
 
         {socialLinks.length > 0 && (

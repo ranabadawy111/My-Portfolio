@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, ArrowDown } from "lucide-react";
+import { ArrowRight, ArrowDown, FileText } from "lucide-react";
 import Button from "../ui/Button";
 import TerminalWindow from "../ui/TerminalWindow";
 import TypedCode from "../ui/TypedCode";
@@ -7,10 +7,10 @@ import { profile } from "../../data/profile";
 
 const codeLines = [
   "const developer = {",
-  `  name: "${profile.name}",`,
-  `  role: "${profile.role}",`,
-  `  stack: ["React", "Redux Toolkit", "Tailwind"],`,
-  `  status: "${profile.availability}",`,
+  `   name: "${profile.name}",`,
+  `   role: "${profile.role}",`,
+  `   stack: ["React", "Redux Toolkit", "Tailwind"],`,
+  `   status: "${profile.availability}",`,
   "};",
 ];
 
@@ -48,6 +48,19 @@ export default function Hero() {
             <Button as="a" href="#contact" variant="secondary" size="lg">
               Get in touch
             </Button>
+            {profile.resumeUrl && (
+              <Button
+                as="a"
+                href={profile.resumeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                variant="secondary"
+                size="lg"
+                icon={FileText}
+              >
+                View CV
+              </Button>
+            )}
           </div>
         </motion.div>
 

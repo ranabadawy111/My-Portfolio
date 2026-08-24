@@ -16,10 +16,10 @@ export const profile = {
     github: "https://github.com/ranabadawy111",
     linkedin: "https://www.linkedin.com/in/rana-badawy",
     twitter: "",
-    upwork: "",
+    upwork: "https://www.upwork.com/freelancers/~0114d9fcd1348531df?mp_source=share",
     mostaql: "",
   },
-  resumeUrl: "", // add a link to your CV/resume PDF once ready
+  resumeUrl: "https://drive.google.com/file/d/1wek6-K2ZNW4z9vIh6XDnvNLTJLcvxyX5/view?usp=drive_link", 
 };
 
 export const skills = [
